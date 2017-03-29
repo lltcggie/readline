@@ -34,7 +34,7 @@
 #define HAVE_ISXDIGIT 1
 
 /* Define if you have the lstat function. */
-#define HAVE_LSTAT 1
+ /* #undef HAVE_LSTAT */
 
 /* Define if you have the mbrlen function. */
 #define HAVE_MBRLEN 1
@@ -55,7 +55,7 @@
 #define HAVE_PUTENV 1
 
 /* Define if you have the select function.  */
-#define HAVE_SELECT 1
+ /* #undef HAVE_SELECT */
 
 /* Define if you have the setenv function.  */
 #define HAVE_SETENV 1
@@ -64,7 +64,7 @@
 #define HAVE_SETLOCALE 1
 
 /* Define if you have the strcasecmp function.  */
-#define HAVE_STRCASECMP 1
+ /* #undef HAVE_STRCASECMP */
 
 /* Define if you have the strcoll function.  */
 #define HAVE_STRCOLL 1
@@ -89,7 +89,7 @@
 #define STDC_HEADERS 1
 
 /* Define if you have the <dirent.h> header file.  */
-#define HAVE_DIRENT_H 1
+/* #undef HAVE_DIRENT_H */
 
 /* Define if you have the <langinfo.h> header file.  */
 #define HAVE_LANGINFO_H 1
@@ -116,13 +116,13 @@
 #define HAVE_STRING_H 1
 
 /* Define if you have the <strings.h> header file.  */
-#define HAVE_STRINGS_H 1
+/* #undef HAVE_STRINGS_H */
 
 /* Define if you have the <sys/dir.h> header file.  */
 /* #undef HAVE_SYS_DIR_H */
 
 /* Define if you have the <sys/file.h> header file.  */
-#define HAVE_SYS_FILE_H 1
+/* #undef HAVE_SYS_FILE_H */
 
 /* Define if you have the <sys/ndir.h> header file.  */
 /* #undef HAVE_SYS_NDIR_H */
@@ -134,7 +134,7 @@
 /* #undef HAVE_SYS_PTEM_H */
 
 /* Define if you have the <sys/select.h> header file.  */
-#define HAVE_SYS_SELECT_H 1
+/* #undef HAVE_SYS_SELECT_H */
 
 /* Define if you have the <sys/stream.h> header file.  */
 /* #undef HAVE_SYS_STREAM_H */
@@ -149,7 +149,7 @@
 #define HAVE_TERMIOS_H 1
 
 /* Define if you have the <unistd.h> header file.  */
-#define HAVE_UNISTD_H 1
+/* #undef HAVE_UNISTD_H */
 
 /* Define if you have the <varargs.h> header file.  */
 /* #undef HAVE_VARARGS_H */
@@ -168,7 +168,7 @@
 /* Definitions pulled in from aclocal.m4. */
 #define VOID_SIGHANDLER 1
 
-#define GWINSZ_IN_SYS_IOCTL 1
+/* #undef GWINSZ_IN_SYS_IOCTL */
 
 #define STRUCT_WINSIZE_IN_SYS_IOCTL 1
 
@@ -176,7 +176,7 @@
 
 /* #undef TIOCSTAT_IN_SYS_IOCTL */
 
-#define FIONREAD_IN_SYS_IOCTL 1
+/* #undef FIONREAD_IN_SYS_IOCTL */
 
 /* #undef SPEED_T_IN_SYS_TYPES */
 

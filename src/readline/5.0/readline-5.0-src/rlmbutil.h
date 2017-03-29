@@ -69,6 +69,12 @@
 #  endif
 #endif
 
+#ifdef HANDLE_MULTIBYTE
+int wcwidth(wchar_t ucs);
+int wcswidth(const wchar_t *pwcs, size_t n);
+int wcswidth_cjk(const wchar_t *pwcs, size_t n);
+#endif
+
 /************************************************/
 /* end of multibyte capability checks for I18N  */
 /************************************************/

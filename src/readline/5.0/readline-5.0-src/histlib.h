@@ -51,7 +51,7 @@
 #endif
 
 #ifndef member
-#  ifndef strchr
+#  if !defined(strchr) && !defined (_WIN32)
 extern char *strchr ();
 #  endif
 #define member(c, s) ((c) ? ((char *)strchr ((s), (c)) != (char *)NULL) : 0)
